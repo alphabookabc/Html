@@ -3,9 +3,11 @@
     <title>Hello World</title>
     <meta charset="UTF-8">
     <style>
-        table{width: 70%; text-align: center;}
-        thead{background: orangered; color: black;}
-        tbody{background: deepskyblue; color: white;}
+        table{width: 70%; text-align: center; border-collapse: collapse;}
+        thead{background: yellowgreen; color: white;}
+        tbody{background: deepskyblue; color: black;}        
+        th{border: 1px solid black;}
+        td{border: 1px solid black;}
     </style>
 </head>
 <body>
@@ -43,7 +45,8 @@
     <font size="5" color="Aquamarine">Aquamarine</font>
     <font size="5" color="Grey">Grey</font>
     <font size="5" color="LightGrey">LightGrey</font>
-
+    <br>
+    <br>
     <table>
         <thead>
             <tr>
